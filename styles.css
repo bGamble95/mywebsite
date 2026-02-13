@@ -1,0 +1,23 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#learn {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #8a2be2;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul li {
+    color: #13265C;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75%;
+}
+
+h1, p.list {
+    color: #2171b5
+}
