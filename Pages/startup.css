@@ -1,0 +1,25 @@
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+body {
+    width: 900px;
+    background-image: linear-gradient(45deg, blue 0%, white 45%, red 100%);
+    margin: 15px auto;
+    border: 1px black;
+}
+h2 {padding: 1em;}
+header{border-bottom: 4px solid #ffff00;}
+main{
+    height: 550px;
+    width: 400px;
+    float: left;
+    border-right: 4px solid #ffff00;
+    padding-right: 1em;
+}
+aside{
+    width: 400px;
+    float: right;
+}
+footer{
+    clear: both;
+    border-top: 4px solid #ffff00;
+}
