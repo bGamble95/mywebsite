@@ -1,0 +1,115 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #0000ff;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffff;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+.navbar a.indie{
+    border-right: none;
+}
+
+.navbar a:hover {
+    color: #ff0000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#learn {
+    color: #0000ff;
+}
+#learn2 {
+    color: #0000ff;
+}
+#single {
+    width: 100%;
+    max-width: 195px;
+    border-color: #0000;
+    border-width: 50%;
+    border-style: dotted;
+    padding: 1em;
+}
+#trade {
+    width: 100%;
+    max-width: 195px;  
+    border-color: #ff0000;
+    border-width: 50%;
+    border-style: double;
+    padding: 1em;
+}
+#omni {
+    width: 100%;
+    max-width: 195px;
+    border-color: #ffff00;
+    border-width: 50%;
+    border-style: dashed;
+    padding: 1em;
+}
+
+.main {
+    overflow: auto;
+    width: 100%
+}
+.column1 .column2 .column3 {
+    width: 30.333%;
+    min-height: 100vh;
+    padding: 1em;
+}
+.column1 {
+    float: left;
+    background-color: #13265C;
+}
+.column2 {
+    float: left;
+    background-color: #0000ff;
+}
+.column3 {
+    float: left;
+    background-color: #ff0000;
+}
+
+a:hover {
+    color: #8a2be2;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    color: #ffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    margin-left: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Media query to fix navigation bar issues*/
+@media only screen and (max-width: 601px) {
+     .navbar a {
+        float: none;
+        border-bottom: solid #ff0000 2px;
+    }
+}
+/*Media query to fox column issue/create vertical mode*/
+@media only screen and (max-width: 1004px){
+    .column1 {
+        float: none;
+        width: 100%;
+    }
+    .column2 {
+        float: none;
+        width: 100%;
+    }
+    .column3 {
+        float: none;
+        width: 100%;
+    }
+}

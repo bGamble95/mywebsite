@@ -1,0 +1,30 @@
+/*All three new pages currently use the same CSS file until ready to be written in*/
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.navbar {
+    background-color: #0000ff;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffff;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+.navbar a.indie{
+    border-right: none;
+}
+
+.navbar a:hover {
+    color: #ff0000;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover {
+    color: #8a2be2;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+}
