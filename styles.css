@@ -1,0 +1,16 @@
+p{font-family:'Times New Roman', Times, serif;
+line-height: 2;}
+#copyright{color: #800080;}
+ul li{font-size: 80%;
+color: #0000ff}
+h1, ul li {font-family:'Courier New', Courier, monospace;}
+*[href]{font-size: 85%;
+font-family: Arial, Helvetica, sans-serif;}
+#sample{padding: 3em;
+    border: 1px dashed #06402B;
+    background-image: linear-gradient(45deg, green 0%, white 50%, blue 100%); /*Gradient for the border (my favorite addition)*/
+}
+#profile{padding: 1.5em;
+    border: 2px solid #0000ff;} /*CSS for Artist Profile Image Border*/
+a{margin-left: 2em;
+}
