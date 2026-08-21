@@ -1,0 +1,27 @@
+p{font-family:'Times New Roman', Times, serif;
+line-height: 2;} /*CSS Code for text*/
+
+#menu ul{list-style-type: none; /*CSS Code for horizontal navigation menu using flexbox*/
+width: 90%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;}
+
+#menu ul li{float: left; /*CSS Code for navigation menu spacing*/
+width: 29%;
+padding: 0;
+margin: 0;}
+#menu ul li a{ /*CSS Code for individual navigation menu items*/
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 3%;
+    text-decoration: none;
+    background-color: #06402B;
+    color: #ffff;
+    font-weight: bold;
+    border-right: 2px solid #ffff;
+    box-sizing: border-box;
+}
+
+h1{font-family:'Courier New', Courier, monospace;} /*CSS Code for Header Icon*/
