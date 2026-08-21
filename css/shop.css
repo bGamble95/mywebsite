@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Pinyon;
+  src: url(Pinyon_Script/Pinyon.ttf); /*CSS code to add in special font from Google for this page*/
+}
+
+p{font-family:'Pinyon', Times, serif; /*CSS Code for text*/
+  font-size: 150%;
+line-height: 2;
+}
+
+main{ /*CSS Code for main content*/
+    padding-top: 2em;
+    width: 100%;
+    border: #0000 solid 2 px;
+}
+
+#menu ul{list-style-type: none; /*CSS Code for horizontal navigation menu using flexbox*/
+width: 90%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;}
+#menu ul li{float: left; /*CSS Code for navigation menu spacing*/
+width: 29%;
+padding: 0;
+margin: 0;}
+#menu ul li a{ /*CSS Code for individual navigation menu items*/
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 3%;
+    text-decoration: none;
+    background-color: #06402B;
+    color: #ffff;
+    font-weight: bold;
+    border-right: 2px solid #ffff;
+    box-sizing: border-box;
+}
+
+h1{font-family:'Courier New', Courier, monospace;} /*CSS Code for Icon in Header*/
+
+@media (max-width: 450px) { /*Media query to stack columns for smaller sized screens and to make sure photos are large enough to view*/
+  img{
+    width: 100%;
+  }
+  p{
+    font-size: 100%;
+  }
+}
